@@ -6,7 +6,6 @@ h1 {
     font-family: Georgia, "Times New Roman", serif;
 }
 
-
 footer {
     background-color: #263f6c;
     width: 100%;
@@ -34,4 +33,10 @@ section {
 h1 {
     text-align: center;
 
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    
 }
