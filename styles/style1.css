@@ -1,0 +1,126 @@
+* {
+    margin: auto;
+}
+
+#banner {
+    height: 350px;
+    max-width: 1920px;
+    background-image: url("../photo/banner.jpg");
+    background-size: cover;
+    /*box-shadow: inset 0 0 0 200px rgba(136, 226, 192, 0.5); */
+}
+
+div img {
+    border-radius: 50%;
+    height: auto;
+    float: left;
+    max-width: 100%;
+    display: inline;
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+
+h1 {
+    position: absolute;
+    top: 150px;
+    left: 0;
+
+}
+
+h2 {
+
+}
+
+h1 span {
+    color: #dfdce3;
+    font: bold 75px Helvetica, Sans-Serif;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+
+}
+
+section {
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+header {
+    font-size: 25px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+main {
+    background-color: #1C4089;
+    color: #dfdce3;
+    padding: 100px;
+    max-width: 1920px;
+    min-width: 700px;
+    width: 100%;
+    box-sizing: border-box;
+    float: none;
+    display: inline-block;
+}
+
+a img {
+    float: right;
+    height: 70px;
+    padding-left: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+
+}
+
+#project {
+    height: 100px;
+    max-width: 1920px;
+    width: 100%;
+    background-color: #f78723;
+    clear: both;
+    /*padding: 10px; */
+    /* position: absolute;
+     bottom: 0; */
+
+}
+
+a img:hover { /* Makes logo bigger on hover */
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+
+}
+
+footer {
+    background-color: #181818;
+    text-align: right;
+    color: #dfdce3;
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
