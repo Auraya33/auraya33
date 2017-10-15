@@ -30,6 +30,10 @@ h1 {
 
 }
 
+h2 {
+
+}
+
 h1 span {
     color: #dfdce3;
     font: bold 75px Helvetica, Sans-Serif;
@@ -40,7 +44,6 @@ h1 span {
 }
 
 section {
-    padding: 100px;
     font-size: 18px;
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
@@ -66,11 +69,12 @@ main {
 }
 
 a img {
-    width: 70px;
+    float: right;
     height: 70px;
-    padding-right: 30px;
     padding-left: 30px;
     text-align: center;
+    position: relative;
+    top: 20px;
 
 }
 
@@ -96,8 +100,9 @@ a img:hover { /* Makes logo bigger on hover */
 
 p {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     color: black;
+
 }
 
 footer {

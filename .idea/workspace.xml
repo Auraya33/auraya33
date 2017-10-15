@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34a3ae54-298b-40ee-b554-f75d1b8e5f5a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/style1.css" afterPath="$PROJECT_DIR$/styles/style1.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +23,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+                <state relative-caret-position="62">
+                  <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -33,11 +34,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
+          <file leaf-file-name="style1.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/styles/style1.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                <state relative-caret-position="576">
+                  <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -64,8 +65,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/dd.html" />
         <option value="$PROJECT_DIR$/WebstormProjects/styles/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles/style1.css" />
       </list>
     </option>
   </component>
@@ -76,8 +78,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="134" />
-    <option name="y" value="134" />
+    <option name="x" value="132" />
+    <option name="y" value="184" />
     <option name="width" value="1528" />
     <option name="height" value="837" />
   </component>
@@ -278,7 +280,7 @@
       <workItem from="1507114791242" duration="1446000" />
       <workItem from="1507116379406" duration="323000" />
       <workItem from="1507974196193" duration="569000" />
-      <workItem from="1508063740927" duration="462000" />
+      <workItem from="1508063740927" duration="4408000" />
     </task>
     <task id="LOCAL-00001" summary="Commiting webstorm project">
       <created>1506601393527</created>
@@ -329,14 +331,28 @@
       <option name="project" value="LOCAL" />
       <updated>1508063928687</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Move index.html file to main directory">
+      <created>1508064219432</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1508064219432</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Better HTML semantics">
+      <created>1508066659617</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1508066659617</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5057000" />
+    <option name="totallyTimeSpent" value="9003000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="134" y="134" width="1528" height="837" extended-state="0" />
+    <frame x="132" y="184" width="1528" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15016611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -373,7 +389,9 @@
     <MESSAGE value="Fixes in html file and changes in stylesheet&#10;Ready to review @puki" />
     <MESSAGE value="Changed div for main html5 tag, add header tag instead of h1." />
     <MESSAGE value="New portfolio page- rebuild from scratch" />
-    <option name="LAST_COMMIT_MESSAGE" value="New portfolio page- rebuild from scratch" />
+    <MESSAGE value="Move index.html file to main directory" />
+    <MESSAGE value="Better HTML semantics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Better HTML semantics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -525,8 +543,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="62">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
           <folding />
         </state>
       </provider>
