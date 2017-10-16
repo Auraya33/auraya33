@@ -48,6 +48,7 @@ section {
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
     letter-spacing: 1px;
+
 }
 
 header {
@@ -59,7 +60,7 @@ header {
 main {
     background-color: #1C4089;
     color: #dfdce3;
-    padding: 100px;
+    padding: 50px;
     max-width: 1920px;
     min-width: 700px;
     width: 100%;
@@ -74,19 +75,17 @@ a img {
     padding-left: 30px;
     text-align: center;
     position: relative;
-    top: 20px;
+    top: 200px;
 
 }
 
 #project {
-    height: 100px;
     max-width: 1920px;
     width: 100%;
     background-color: #f78723;
     clear: both;
-    /*padding: 10px; */
-    /* position: absolute;
-     bottom: 0; */
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
@@ -115,6 +114,7 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     clear: both;
+
 }
 
 .clear {
