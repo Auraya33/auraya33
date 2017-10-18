@@ -4,7 +4,7 @@
 
 #banner {
     height: 350px;
-    max-width: 1920px;
+    max-width: 100%;
     background-image: url("../photo/banner.jpg");
     background-size: cover;
     /*box-shadow: inset 0 0 0 200px rgba(136, 226, 192, 0.5); */
@@ -61,7 +61,6 @@ main {
     background-color: #1C4089;
     color: #dfdce3;
     padding: 50px;
-    max-width: 1920px;
     min-width: 700px;
     width: 100%;
     box-sizing: border-box;
@@ -80,7 +79,6 @@ a img {
 }
 
 #project {
-    max-width: 1920px;
     width: 100%;
     background-color: #f78723;
     clear: both;
