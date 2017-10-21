@@ -2,31 +2,45 @@
     margin: auto;
 }
 
+body {
+    width: 80%;
+    background-color: #56607b;
+}
+
 #banner {
-    height: 350px;
+    height: 380px;
     max-width: 100%;
-    background-image: url("../photo/banner.jpg");
+    background-image: url("../photo/pc.jpg");
     background-size: cover;
     /*box-shadow: inset 0 0 0 200px rgba(136, 226, 192, 0.5); */
 }
 
 div img {
     border-radius: 50%;
-    height: auto;
+    height: 350px;
     float: left;
     max-width: 100%;
     display: inline;
     vertical-align: top;
     position: relative;
-    top: 10px;
+    top: 5px;
     left: 10px;
+    box-shadow: 35px 27px 50px -12px rgba(0,0,0,0.65);
+
+}
+
+#descr {
+    width: 50%;
+    position: relative;
+    top: 60px;
+    left: 120px;
 
 }
 
 h1 {
     position: absolute;
     top: 150px;
-    left: 0;
+    left: 20%;
 
 }
 
@@ -36,16 +50,16 @@ h2 {
 
 h1 span {
     color: #dfdce3;
-    font: bold 75px Helvetica, Sans-Serif;
-    letter-spacing: 1px;
-    background: rgba(0, 0, 0, 0.7);
+    font: 75px Oswald, Sans-Serif;
+    letter-spacing: 2px;
+    background: rgba(0, 0, 0, 0.8);
     padding: 10px;
 
 }
 
 section {
     font-size: 18px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Titillium Web, Arial, sans-serif;
     text-align: center;
     letter-spacing: 1px;
 
@@ -53,12 +67,12 @@ section {
 
 header {
     font-size: 25px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Titillium Web, Arial, sans-serif;
     text-align: center;
 }
 
 main {
-    background-color: #1C4089;
+    background-color: #262a53;
     color: #dfdce3;
     padding: 50px;
     min-width: 700px;
@@ -66,6 +80,8 @@ main {
     box-sizing: border-box;
     float: none;
     display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a img {
@@ -74,13 +90,12 @@ a img {
     padding-left: 30px;
     text-align: center;
     position: relative;
-    top: 200px;
-
+    top: 100px;
 }
 
 #project {
     width: 100%;
-    background-color: #f78723;
+    background-color: #b1b26b;
     clear: both;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -96,22 +111,29 @@ a img:hover { /* Makes logo bigger on hover */
 }
 
 p {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Titillium Web, Arial, sans-serif;
     font-size: 20px;
     color: black;
 
 }
 
 footer {
-    background-color: #181818;
+    background-color: #3c4633;
     text-align: right;
     color: #dfdce3;
     font-size: 20px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Abel, Arial, sans-serif;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     clear: both;
+
+}
+
+footer img {
+    width: 20px;
+    position: relative;
+    top: 5px;
 
 }
 
