@@ -46,8 +46,8 @@ nav {
 #banner {
     height: 420px;
     max-width: 100%;
-    background-image: url("../photo/pc.jpg");
     background-size: cover;
+    background: url("../photo/pc.jpg") fixed;
     /*box-shadow: inset 0 0 0 200px rgba(136, 226, 192, 0.5); */
 }
 
