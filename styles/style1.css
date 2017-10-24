@@ -7,7 +7,7 @@ body {
     background-color: #56607b;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -178,6 +178,18 @@ article {
 #exp img {
 
 }
+
+#exp ul li {
+    list-style: none;
+    margin: 0;
+    padding: 5px 0 5px 23px;
+    background: url("../photo/arrow.svg") no-repeat left center;
+    background-size: 20px;
+    float: none;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+}
+
 
 footer {
     background-color: #3c4633;
