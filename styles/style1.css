@@ -129,15 +129,17 @@ main {
 }
 
 #project a img {
-    max-height: 250px;
+    max-height: 350px;
     max-width: 100%;
-    float: none;
     padding: 20px;
+    float: none;
+
 
 }
 p {
-
-
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    color: black;
 }
 
 a img {
