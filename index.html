@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style1.css" type="text/css">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Abel|Quicksand|Titillium+Web|Oswald|Roboto" rel="stylesheet">
     <title>Katarzyna Nagel - Portfolio</title>
 </head>
 <body>
-<header id="banner">
+<span id="main" class="anchor"></span>
+<header class="banner">
     <h1>Katarzyna Nagel - Portfolio</h1>
     <h3>Junior Front-end Developer</h3>
 </header>
 <nav>
     <ul>
-        <li><a href="#banner">Główna</a></li>
-        <li><a href="#descr">O mnie</a></li>
+        <li><a href="#main">Główna</a></li>
+        <li><a href="#about">O mnie</a></li>
         <li><a href="#project">Projekty</a></li>
-        <li><a href="#exp">Doświadczenie</a></li>
+        <li><a href="#expirience">Doświadczenie</a></li>
         <li><a href="#contact">Kontakt</a></li>
     </ul>
 </nav>
 
 <main>
-    <section id="descr">
-        <img src="photo/bio-photo.jpg">
+    <span id="about" class="anchor"></span>
+    <section class="descr">
+        <img class="bio-img" src="photo/bio-photo.jpg">
+        <h2>O mnie:</h2>
         <article>Entuzjastka nowych technologii, zaczynając od komputerów kończąc na systemach audio. Osoba o wielu
             zainteresowaniach. Fanka komiksów i animacji zarówno japońskich oraz amerykańskich. W dzień grafik i edytor,
             pod osłoną nocy rysownik, gracz a także maratończyk seriali na Netflixie. Uwielbia posiadówki nad grami
@@ -32,14 +35,14 @@
             jest upór dzięki któremu toruje sobie drogę do celu. Razem z zespołem FantastycznaCzwórka pracuję nad
             projektem: "Generator Życzeń".
         </article>
-    </section>
-    <a target="_blank" href="https://github.com/Auraya33"><img src="photo/gitlogo.png"></a>
-    <a target="_blank" href="https://www.linkedin.com/in/katarzyna-nagel-9b690b149/"><img src="photo/Inlogo.png"></a>
-    <a target="_blank" href="https://www.facebook.com/kasia.nagel"><img src="photo/fblogo.png"></a>
+    <a target="_blank" href="https://github.com/Auraya33"><img class="icon" src="photo/gitlogo.png"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/katarzyna-nagel-9b690b149/"><img class="icon" src="photo/Inlogo.png"></a>
 
+    </section>
     <div class="clear"></div>
-</main>
-<section id="project">
+
+<span id="project" class="anchor"></span>
+<section class="project">
     <h2>Projekty:</h2>
     <a href="https://github.com/Auraya33/auraya33.github.io"><img class="git" src="photo/bio.jpg" alt="portfolio"></a>
     <p>Strona portfolio</p>
@@ -47,7 +50,8 @@
     <a href="https://github.com/infoshareacademy/jfdz7-fantastycznaCzworka"><img src="photo/fc4.jpg" alt="portfolio"></a>
     <p>Strona reklamowa aplikacji "Generator Życzeń"</p>
 </section>
-<section id="exp">
+<span id="expirience" class="anchor"></span>
+<section class="exp">
     <h2>Doświadczenie:</h2>
     <ul class="left">
         <li>Zaawansowane HTML5 i CSS</li>
@@ -64,9 +68,10 @@
         <li>Praca w systemie Scrumowym</li>
     </ul>
 </section>
-
+</main>
 <div class="clear"></div>
-<footer id="contact">Katarzyna Nagel &copy 2017 <br> <img src="photo/mail.png"> : kasia.nagel@gmail.com</footer>
+<span id="contact" class="anchor"></span>
+<footer>Katarzyna Nagel &copy 2017 <br> <img class="white-icon" src="photo/mail.svg"> : kasia.nagel@gmail.com</footer>
 
 </body>
 </html>

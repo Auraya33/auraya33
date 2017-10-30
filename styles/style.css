@@ -3,8 +3,26 @@
 }
 
 body {
-    width: 80%;
+    width: 100%;
     background-color: #56607b;
+}
+
+main {
+    width: 100%
+}
+
+.anchor {
+    display: block;
+    height: 53px;
+    margin-top: -53px;
+    visibility: hidden;
+
+}
+
+nav {
+    background-color: #17182d;
+    position: sticky;
+    width: 100%;
 }
 
 nav ul {
@@ -12,8 +30,6 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    width: inherit;
-
 }
 
 li {
@@ -35,20 +51,11 @@ li a:hover {
     background-color: #090912;
 }
 
-nav {
-    background-color: #17182d;
-    height: 60px;
-    position: fixed;
-    top: 0;
-    width: inherit;
-}
-
-#banner {
-    height: 420px;
+.banner {
+    height: 550px;
     max-width: 100%;
-    background-size: cover;
     background: url("../photo/pc.jpg") fixed no-repeat;
-    /*box-shadow: inset 0 0 0 200px rgba(136, 226, 192, 0.5); */
+    background-position-x: center;
 }
 
 h1 {
@@ -81,7 +88,7 @@ h3 {
     vertical-align: middle;
 }
 
-#descr img {
+.bio-img {
     border-radius: 50%;
     max-height: 350px;
     float: left;
@@ -91,22 +98,17 @@ h3 {
 
 }
 
-#descr article {
+.descr article {
     text-align: center;
     padding-top: 15px;
+    font-family: Titillium Web, sans-serif;
+    font-size: 20px;
 }
 
-header {
-    font-size: 25px;
-    font-family: Titillium Web, Arial, sans-serif;
-    text-align: center;
-}
-
-main {
+.descr {
     background-color: #262a53;
     color: #dfdce3;
-    padding: 50px;
-    min-width: 700px;
+    padding: 50px;;
     width: 100%;
     box-sizing: border-box;
     float: none;
@@ -115,7 +117,29 @@ main {
     margin-right: auto;
 }
 
-#project {
+.icon {
+    float: right;
+    max-height: 70px;
+    padding-left: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.icon:hover { /* Makes logo bigger on hover */
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+}
+
+header {
+    font-size: 25px;
+    font-family: Titillium Web, Arial, sans-serif;
+    text-align: center;
+}
+
+.project {
     width: 100%;
     background-color: #b1b26b;
     clear: both;
@@ -128,34 +152,18 @@ main {
     text-align: center;
 }
 
-#project a img {
+.project a img {
     max-height: 350px;
     max-width: 100%;
     padding: 20px;
     float: none;
 
-
 }
+
 p {
     font-size: 18px;
     font-family: Roboto, sans-serif;
     color: black;
-}
-
-a img {
-    float: right;
-    max-height: 70px;
-    padding-left: 30px;
-    text-align: center;
-    padding-top: 20px;
-}
-
-a img:hover { /* Makes logo bigger on hover */
-    -webkit-transform: scale(1.25);
-    -moz-transform: scale(1.25);
-    -ms-transform: scale(1.25);
-    -o-transform: scale(1.25);
-    transform: scale(1.25);
 }
 
 a {
@@ -166,23 +174,13 @@ a {
 
 }
 
-article {
-    font-family: Titillium Web, sans-serif;
-    font-size: 20px;
-
-}
-
-#exp {
+.exp {
     background-color: #cfd48e;
     padding: 20px
 
 }
 
-#exp img {
-
-}
-
-#exp ul li {
+.exp ul li {
     list-style: none;
     margin: 0;
     padding: 5px 0 5px 23px;
@@ -192,7 +190,6 @@ article {
     font-size: 20px;
     font-family: Roboto, sans-serif;
 }
-
 
 footer {
     background-color: #3c4633;
@@ -208,9 +205,13 @@ footer {
 }
 
 footer img {
-    width: 20px;
     position: relative;
     top: 5px;
+    width: 1em;
+
+}
+
+.white-icon {
 
 }
 
@@ -224,4 +225,8 @@ footer img {
     position: relative;
     left: 95px;
 
+}
+
+.container {
+    width: 80%;
 }
