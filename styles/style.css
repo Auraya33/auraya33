@@ -3,7 +3,6 @@
 }
 
 body {
-    width: 100%;
     background-color: #56607b;
 }
 
@@ -22,6 +21,7 @@ main {
 nav {
     background-color: #17182d;
     position: sticky;
+    top: 0;
     width: 100%;
 }
 
@@ -59,7 +59,7 @@ li a:hover {
 }
 
 h1 {
-    position: absolute;
+    position: relative;
     top: 150px;
     color: #dfdce3;
     font: 75px Oswald, Sans-Serif;
@@ -78,8 +78,8 @@ h2 {
 }
 
 h3 {
-    position: absolute;
-    top: 281px;
+    position: relative;
+    top: 150px;
     color: #dfdce3;
     font: 25px Oswald, Sans-Serif;
     letter-spacing: 2px;
@@ -90,10 +90,8 @@ h3 {
 
 .bio-img {
     border-radius: 50%;
-    max-height: 350px;
     float: left;
-    max-width: 100%;
-    display: inline;
+    display: block;
     box-shadow: 35px 27px 50px -12px rgba(0, 0, 0, 0.65);
 
 }
@@ -119,7 +117,7 @@ h3 {
 
 .icon {
     float: right;
-    max-height: 70px;
+    max-width: 70px;
     padding-left: 30px;
     text-align: center;
     padding-top: 20px;
@@ -153,8 +151,8 @@ header {
 }
 
 .project a img {
-    max-height: 350px;
-    max-width: 100%;
+    max-width: 80%;
+    min-width: 40%;
     padding: 20px;
     float: none;
 
@@ -228,5 +226,34 @@ footer img {
 }
 
 .container {
-    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
 }
+
+@media screen and (max-width: 800px) {
+    .bio-img {
+        width: 65%;
+        min-width: 15em;
+        float: none;
+
+    }
+
+    .descr article {
+        float: none;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    nav {
+        position: static;
+
+    }
+
+    li {
+        float: none;
+    }
+}
+
+
