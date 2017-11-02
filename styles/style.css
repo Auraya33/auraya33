@@ -74,7 +74,7 @@ h2 {
     font-size: 28px;
     text-align: center;
     padding-bottom: 10px;
-
+    padding-top: 10px;
 }
 
 h3 {
@@ -153,15 +153,18 @@ header {
 .project a img {
     max-width: 80%;
     min-width: 40%;
-    padding: 20px;
     float: none;
-
+}
+.project a img:hover{
+    box-shadow: 35px 27px 50px -12px rgba(0, 0, 0, 0.65);
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
     font-family: Roboto, sans-serif;
     color: black;
+    padding: 15px;
+    width: 80%;
 }
 
 a {
@@ -230,12 +233,11 @@ footer img {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) { /*Mobile*/
     .bio-img {
-        width: 65%;
+        width: 55%;
         min-width: 15em;
         float: none;
-
     }
 
     .descr article {
@@ -248,12 +250,30 @@ footer img {
 
     nav {
         position: static;
-
     }
 
     li {
         float: none;
     }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
 }
 
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    /*Tablets*/
+    .bio-img {
+        width: 55%;
+        min-width: 15em;
+        float: none;
+    }
 
+    .descr article {
+        float: none;
+    }
+}
