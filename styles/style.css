@@ -207,12 +207,14 @@ footer {
     clear: both;
 
 }
-footer a{
+
+footer a {
     color: #dfdce3;
     font-size: 20px;
     font-family: Abel, Arial, sans-serif;
 }
-footer a:hover{
+
+footer a:hover {
     text-decoration: underline;
 }
 
@@ -241,7 +243,8 @@ footer img {
     .exp ul li {
         font-size: 15px;
     }
-    .descr article{
+
+    .descr article {
         font-size: 16px;
     }
 
@@ -297,6 +300,10 @@ footer img {
     }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1201px) and (max-width: 1920px) {
+
+}
+
+@media screen and (min-width: 1921px) {
 
 }
