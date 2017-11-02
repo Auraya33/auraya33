@@ -155,7 +155,8 @@ header {
     min-width: 40%;
     float: none;
 }
-.project a img:hover{
+
+.project a img:hover {
     box-shadow: 35px 27px 50px -12px rgba(0, 0, 0, 0.65);
 }
 
@@ -177,7 +178,7 @@ a {
 
 .exp {
     background-color: #cfd48e;
-    padding: 20px
+    padding: 2.5%;
 
 }
 
@@ -223,9 +224,6 @@ footer img {
 .left {
     display: inline-block;
     width: 45%;
-    position: relative;
-    left: 95px;
-
 }
 
 .container {
@@ -233,7 +231,16 @@ footer img {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 800px) { /*Mobile*/
+@media screen and (max-width: 400px) {
+    /*XS Mobile*/
+    .exp ul li {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    /*Mobile*/
     .bio-img {
         width: 55%;
         min-width: 15em;
@@ -276,4 +283,8 @@ footer img {
     .descr article {
         float: none;
     }
+}
+
+@media screen and (min-width: 1201px){
+    
 }
