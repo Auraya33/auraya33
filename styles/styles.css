@@ -79,6 +79,8 @@
 
 .descr h2 {
     color: #dfdce3;
+    margin:0;
+    padding: 20px 0 20px 0;
 }
 
 .descr .container {
@@ -93,6 +95,8 @@
 
 .project h2 {
     color: #000;
+    margin:0;
+    padding: 20px 0 20px 0;
 }
 
 .project .img-responsive {
@@ -130,6 +134,8 @@
 .exp h2 {
     color: black;
     text-align: center;
+    margin: 0;
+    padding: 20px 0 20px 0;
 
 }
 
@@ -203,6 +209,12 @@ footer a:visited {
 
 .row {
     padding-bottom: 20px;
+}
+.anchor{
+    visibility: hidden;
+    height: 50px;
+    margin-top: -50px;
+    display: block;
 }
 
 @media screen and (max-width: 505px) {
