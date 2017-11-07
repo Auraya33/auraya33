@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34a3ae54-298b-40ee-b554-f75d1b8e5f5a" name="Default" comment="Add missing picture files">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/cupcake.svg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photo/cupcake.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles.css" afterPath="$PROJECT_DIR$/styles/styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +22,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="401">
-                  <caret line="110" column="34" lean-forward="false" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
+                <state relative-caret-position="316">
+                  <caret line="105" column="114" lean-forward="true" selection-start-line="105" selection-start-column="114" selection-end-line="105" selection-end-column="114" />
                   <folding />
                 </state>
               </provider>
@@ -313,7 +311,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123759000" />
+    <option name="totallyTimeSpent" value="123915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -606,8 +604,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="110" column="34" lean-forward="false" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
+        <state relative-caret-position="316">
+          <caret line="105" column="114" lean-forward="true" selection-start-line="105" selection-start-column="114" selection-end-line="105" selection-end-column="114" />
           <folding />
         </state>
       </provider>
