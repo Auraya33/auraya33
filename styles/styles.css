@@ -1,6 +1,9 @@
 * {
     margin: 0 auto;
 }
+body, html{
+    height: 100%;
+}
 
 .navbar {
     border-radius: 0;
@@ -37,16 +40,17 @@
 
 .banner {
     background: url("../photo/pc.jpg") fixed no-repeat;
-    height: 550px;
-    background-position-x: center;
+    height: 100%;
+        background-position-x: center;
+    background-size: cover;
     margin: auto 0;
 }
 
 .banner h1 {
     position: relative;
-    top: 150px;
+    top: 360px;
     color: #dfdce3;
-    font: 75px Oswald, sans-serif;
+    font: 85px Oswald, sans-serif;
     background-color: rgba(0, 0, 0, 0.7);
     letter-spacing: 2px;
     padding: 10px;
@@ -56,7 +60,7 @@
 
 .banner h3 {
     position: relative;
-    top: 150px;
+    top: 360px;
     color: #dfdce3;
     font: 25px Oswald, sans-serif;
     background-color: rgba(0, 0, 0, 0.7);
