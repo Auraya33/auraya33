@@ -28,6 +28,8 @@
 .navbar-default .navbar-nav > li > a {
     color: #dfdce3;
     font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
