@@ -1,0 +1,240 @@
+* {
+    margin: 0 auto;
+}
+/*body, html {*/
+    /*height: 100%;*/
+/*}*/
+
+.navbar {
+    border-radius: 0;
+    z-index: 1;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    margin: auto 0;
+
+}
+
+.navbar-default {
+    background-color: #17182d;
+    border: none;
+    width: 100%;
+}
+
+.navbar-default .navbar-brand {
+    color: #dfdce3;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #dfdce3;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #dfdce3;
+    background-color: #0c0c18;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #dfdce3;
+}
+
+.banner {
+    background: url("../photo/pc.jpg") fixed no-repeat;
+    /*height: 100%;*/
+    height: 550px;
+    background-position-x: center;
+    background-size: cover;
+    margin: auto 0;
+}
+
+.banner h1 {
+    position: relative;
+    top: 150px;
+    color: #dfdce3;
+    font: 85px Oswald, sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    letter-spacing: 2px;
+    padding: 10px;
+    text-align: center;
+    margin: auto 0;
+}
+
+.banner h3 {
+    position: relative;
+    top: 150px;
+    color: #dfdce3;
+    font: 25px Oswald, sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    letter-spacing: 2px;
+    padding: 10px;
+    text-align: center;
+    margin: auto 0;
+}
+
+.img-circle {
+    box-shadow: 35px 27px 50px -12px rgba(0, 0, 0, 0.65);
+}
+
+.descr {
+    background-color: #262a53;
+    color: #dfdce3;
+    padding: 50px;
+    font: 20px Titillium Web, sans-serif;
+}
+
+.descr h2 {
+    color: #dfdce3;
+    margin:0;
+    padding: 20px 0 20px 0;
+}
+
+.descr .container {
+    width: 100%;
+}
+
+.project {
+    background-color: #b1b27d;
+    font-family: Roboto, sans-serif;
+    padding: 20px;
+}
+
+.project h2 {
+    color: #000;
+    margin:0;
+    padding: 20px 0 20px 0;
+}
+
+.project .img-responsive {
+    margin: auto;
+}
+
+.project figure {
+    font: 18px Roboto, sans-serif;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.project a img {
+    padding-bottom: 20px;
+
+}
+
+.project a img:hover {
+    zoom: 1;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    -webkit-transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -o-transition: opacity .15s ease-in-out;
+    transition: opacity .15s ease-in-out;
+}
+
+.exp {
+    background-color: #cfd49b;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.exp h2 {
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 20px 0;
+
+}
+
+.exp ul li {
+    list-style: none;
+    padding: 5px 0 5px 23px;
+    background: url("../photo/arrow2.svg") no-repeat left center;
+    background-size: 17px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+}
+
+footer {
+    background-color: #3c4633;
+    text-align: center;
+    color: #dfdce3;
+    font-size: 15px;
+    font-family: Abel, Arial, sans-serif;
+    clear: both;
+}
+
+footer img {
+    width: 150px;
+    padding: 20px;
+    position: relative;
+
+}
+
+footer .footer-copyright {
+    background-color: #333333;
+    padding-bottom: 3px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+footer h5 {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #d2d1d1;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: #dfdce3;
+}
+
+.cont {
+    width: 50px;
+    padding: 10px;
+}
+
+.row {
+    padding-bottom: 20px;
+}
+.anchor{
+    visibility: hidden;
+    height: 50px;
+    margin-top: -50px;
+    display: block;
+}
+
+@media screen and (max-width: 505px) {
+    .banner h1 {
+        font-size: 50px;
+    }
+
+    .banner h3 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .descr {
+        font-size: 15px;
+    }
+}
