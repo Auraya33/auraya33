@@ -1,6 +1,9 @@
 * {
     margin: auto;
 }
+body, html{
+    height: 100%;
+}
 
 body {
     background-color: #56607b;
@@ -54,15 +57,16 @@ li a:hover {
 }
 
 .banner {
-    height: 550px;
     max-width: 100%;
     background: url("../photo/pc.jpg") fixed no-repeat;
     background-position-x: center;
+    height: 100%;
+    background-size: cover;
 }
 
 h1 {
     position: relative;
-    top: 150px;
+    top: 360px;
     color: #dfdce3;
     font: 75px Oswald, Sans-Serif;
     letter-spacing: 2px;
@@ -81,7 +85,7 @@ h2 {
 
 h3 {
     position: relative;
-    top: 150px;
+    top: 360px;
     color: #dfdce3;
     font: 25px Oswald, Sans-Serif;
     letter-spacing: 2px;
