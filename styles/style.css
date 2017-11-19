@@ -21,39 +21,37 @@ main {
 
 }
 
-nav {
-    background-color: #17182d;
+.navbar {
+    border-radius: 0;
+    z-index: 1;
     position: sticky;
     top: 0;
+    margin: auto 0;
+
+}
+
+.navbar-default {
+    background-color: #17182d;
+    border: none;
     width: 100%;
-    z-index: 1;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.navbar-default .navbar-brand {
     color: #dfdce3;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 20px;
-    width: 80%;
 }
 
-li a:hover {
-    background-color: #090912;
-    color: white;
+.navbar-default .navbar-nav > li > a {
+    color: #dfdce3;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #dfdce3;
+    background-color: #0c0c18;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #dfdce3;
 }
 
 .banner {
@@ -73,6 +71,7 @@ h1 {
     background: rgba(0, 0, 0, 0.7);
     padding: 10px;
     vertical-align: middle;
+    margin: 0;
 }
 
 h2 {
@@ -81,6 +80,7 @@ h2 {
     text-align: center;
     padding-bottom: 10px;
     padding-top: 10px;
+    margin: 0;
 }
 
 h3 {
@@ -92,6 +92,7 @@ h3 {
     background: rgba(0, 0, 0, 0.7);
     padding: 10px;
     vertical-align: middle;
+    margin: 0;
 }
 
 .bio-img {
@@ -105,6 +106,7 @@ h3 {
 .descr article {
     text-align: center;
     padding-top: 15px;
+    padding-left: 15px;
     font-family: Titillium Web, sans-serif;
     font-size: 20px;
     overflow: hidden;
