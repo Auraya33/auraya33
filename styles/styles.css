@@ -2,18 +2,21 @@
     margin: 0 auto;
 }
 
-/*body, html {*/
-/*height: 100%;*/
-/*}*/
+body, html {
+height: 100%;
+}
 
 .navbar {
     border-radius: 0;
     z-index: 1;
-    position: sticky;
+    position: fixed;
     position: -webkit-sticky;
     top: 0;
     margin: auto 0;
 
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    float: left;
 }
 
 .nav>li>a {
@@ -22,9 +25,10 @@
 }
 
 .navbar-default {
-    background-color: #17182d;
+    background: transparent;
     border: none;
     width: 100%;
+    padding: 10px 0;
 }
 
 .navbar-default .navbar-brand {
@@ -32,8 +36,9 @@
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #dfdce3;
-    font-size: 18px;
+    color: #3a3a3a;
+    font-size: 20px;
+    letter-spacing: .6px;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -46,19 +51,26 @@
 .navbar-default .navbar-brand:hover {
     color: #dfdce3;
 }
+.navbar-toggle {
+    border: none;
+    filter: invert(90%);
+    cursor: pointer;
+
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    transition: ease .5s;
+    background-color: transparent;
+}
 
 .banner {
-    background: url("../photo/pc.jpg") fixed no-repeat;
-    /*height: 100%;*/
-    height: 550px;
-    background-position-x: center;
-    background-size: cover;
+    background: url("../photo/background.jpeg") fixed no-repeat;
+    height: 100%;
     margin: auto 0;
 }
 
 .banner h1 {
     position: relative;
-    top: 150px;
+    top: 40%;
     color: #dfdce3;
     font: 85px Oswald, sans-serif;
     background-color: rgba(0, 0, 0, 0.7);
@@ -70,7 +82,7 @@
 
 .banner h3 {
     position: relative;
-    top: 150px;
+    top: 40%;
     color: #dfdce3;
     font: 25px Oswald, sans-serif;
     background-color: rgba(0, 0, 0, 0.7);
