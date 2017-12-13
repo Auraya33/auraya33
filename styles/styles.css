@@ -3,7 +3,7 @@
 }
 
 body, html {
-height: 100%;
+    height: 100%;
 }
 
 .navbar {
@@ -15,11 +15,12 @@ height: 100%;
     margin: auto 0;
 
 }
-.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
     float: left;
 }
 
-.nav>li>a {
+.nav > li > a {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -28,7 +29,7 @@ height: 100%;
     background: transparent;
     border: none;
     width: 100%;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .navbar-default .navbar-brand {
@@ -37,29 +38,40 @@ height: 100%;
 
 .navbar-default .navbar-nav > li > a {
     color: #3a3a3a;
-    font-size: 20px;
-    letter-spacing: .6px;
+    font-size: 19px;
+    letter-spacing: 0.6px;
     text-transform: uppercase;
     font-weight: 600;
+    transition: .5s;
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-    color: #dfdce3;
-    background-color: #0c0c18;
+    font-size: 22px;
+    color: black;
+    transition: .5s;
+
 }
 
 .navbar-default .navbar-brand:hover {
     color: #dfdce3;
 }
+
 .navbar-toggle {
     border: none;
     filter: invert(90%);
     cursor: pointer;
 
 }
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     transition: ease .5s;
     background-color: transparent;
+}
+
+button span img {
+    width: 50px;
+    height: 50px;
+
 }
 
 .banner {
@@ -174,7 +186,6 @@ height: 100%;
     font-family: Roboto, sans-serif;
 }
 
-
 footer {
     background-color: #3c4633;
     text-align: center;
@@ -253,10 +264,12 @@ footer a:visited {
     .banner h3 {
         font-size: 15px;
     }
+
     .navbar {
         position: fixed;
     }
-    .navbar-toggle{
+
+    .navbar-toggle {
         margin-top: 15px;
         margin-bottom: 15px;
     }
@@ -269,4 +282,18 @@ footer a:visited {
 
 }
 
+@media screen and (max-width: 767px) {
+    .navbar-default {
+        background-color: #131429;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #dfdce3;
+        text-align: center;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: white;
+    }
+}
 
