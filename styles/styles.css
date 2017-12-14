@@ -91,6 +91,13 @@ button span img {
     font-size: 19px;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+    transition: ease .25s;
+    font-size: 150%;
+    color: white;
+
+}
 .banner {
     background: url("../photo/background.jpeg") fixed no-repeat;
     height: 100%;
@@ -201,6 +208,7 @@ button span img {
     background-size: 17px;
     font-size: 18px;
     font-family: Roboto, sans-serif;
+
 }
 
 footer {
@@ -271,6 +279,9 @@ footer a:visited {
     height: 60px;
     margin-top: -60px;
     display: block;
+}
+nav li {
+    color: white;
 }
 
 @media screen and (max-width: 505px) {
