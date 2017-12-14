@@ -10,10 +10,9 @@ body, html {
     border-radius: 0;
     z-index: 1;
     position: fixed;
-    position: -webkit-sticky;
     top: 0;
     margin: auto 0;
-
+    font-family: Lato, sans-serif;
 }
 
 .nav > li > a {
@@ -35,7 +34,7 @@ body, html {
 
 .navbar-default .navbar-nav > li > a {
     color: #3a3a3a;
-    font-size: 20px;
+    font-size: 23px;
     letter-spacing: 0.6px;
     text-transform: uppercase;
     font-weight: 600;
@@ -43,7 +42,7 @@ body, html {
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-    font-size: 22px;
+    font-size: 25px;
     color: black;
     transition: .5s;
 
@@ -91,15 +90,20 @@ button span img {
     font-size: 19px;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
     background-color: transparent;
     transition: ease .25s;
     font-size: 150%;
-    color: white;
-
+    color: ghostwhite;
 }
+
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    font-size: 150%;
+}
+
 .banner {
-    background: url("../photo/background.jpeg") fixed no-repeat;
+    background: url("../photo/background.jpeg") fixed no-repeat ;
     height: 100%;
     margin: auto 0;
 }
@@ -280,6 +284,7 @@ footer a:visited {
     margin-top: -60px;
     display: block;
 }
+
 nav li {
     color: white;
 }
