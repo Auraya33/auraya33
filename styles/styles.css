@@ -59,7 +59,7 @@ body, html {
 
 .navbar-toggle {
     border: none;
-    filter: invert(60%);
+    filter: invert(30%);
     cursor: pointer;
     padding: 0;
 }
@@ -268,8 +268,8 @@ footer a:visited {
 
 .anchor {
     visibility: hidden;
-    height: 50px;
-    margin-top: -50px;
+    height: 60px;
+    margin-top: -60px;
     display: block;
 }
 
@@ -317,8 +317,10 @@ footer a:visited {
     .navbar-default {
         padding-bottom: 15px;
         padding-top: 0;
-
     }
 
+    .navbar.navbar-default.shrink {
+        background-color: transparent;
+    }
 }
 
