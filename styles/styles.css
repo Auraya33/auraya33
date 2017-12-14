@@ -16,10 +16,6 @@ body, html {
 
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    float: left;
-}
-
 .nav > li > a {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -29,7 +25,8 @@ body, html {
     background: transparent;
     border: none;
     width: 100%;
-    padding: 15px 0;
+    padding: 20px 0;
+    transition: ease .3s;
 }
 
 .navbar-default .navbar-brand {
@@ -38,7 +35,7 @@ body, html {
 
 .navbar-default .navbar-nav > li > a {
     color: #3a3a3a;
-    font-size: 19px;
+    font-size: 20px;
     letter-spacing: 0.6px;
     text-transform: uppercase;
     font-weight: 600;
@@ -52,15 +49,19 @@ body, html {
 
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    float: left;
+}
+
 .navbar-default .navbar-brand:hover {
     color: #dfdce3;
 }
 
 .navbar-toggle {
     border: none;
-    filter: invert(90%);
+    filter: invert(60%);
     cursor: pointer;
-
+    padding: 0;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -71,7 +72,23 @@ body, html {
 button span img {
     width: 50px;
     height: 50px;
+}
 
+.navbar.navbar-default.shrink {
+    padding: 0;
+    height: 60px;
+    background-color: #15172d;
+    transition: ease .5s;
+}
+
+.navbar.navbar-default.shrink a {
+    color: #dfdce3;
+    font-size: 17px;
+}
+
+.navbar.navbar-default.shrink a:hover {
+    color: white;
+    font-size: 19px;
 }
 
 .banner {
@@ -283,10 +300,6 @@ footer a:visited {
 }
 
 @media screen and (max-width: 767px) {
-    .navbar-default {
-        background-color: #131429;
-    }
-
     .navbar-default .navbar-nav > li > a {
         color: #dfdce3;
         text-align: center;
@@ -295,5 +308,17 @@ footer a:visited {
     .navbar-default .navbar-nav > li > a:hover {
         color: white;
     }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        background-color: #15172d;
+        float: none;
+    }
+
+    .navbar-default {
+        padding-bottom: 15px;
+        padding-top: 0;
+
+    }
+
 }
 
