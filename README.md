@@ -5,7 +5,7 @@
 This project will generate wishes based on data from Facebook
 
 ### Profile:
-* https://auraya33.github.com
+* https://auraya33.github.io
 
 #### Project:
 
